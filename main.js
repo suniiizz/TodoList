@@ -17,6 +17,9 @@ function onAdd() {
   // ul.list__box에 li.list__inner 자식 붙이기
   listBox.appendChild(listItem);
 
+  // 새로운 목록 스크롤링
+  listItem.scrollIntoView({ block: "center" });
+
   // 인풋 초기화
   input.value = "";
   input.focus();
