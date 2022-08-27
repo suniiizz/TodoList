@@ -117,9 +117,12 @@ body {
     }
   }
 }
-// #F5F5F5
-// #CFDBF9
-// #8DA7F2
-// #5379F1
-// #353B50
-// #7FCCC4
+
+@media (max-width: 640px) {
+  .list {
+    width: 350px;
+  }
+  .list__box {
+    height: 400px;
+  }
+}

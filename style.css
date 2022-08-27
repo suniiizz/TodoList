@@ -272,4 +272,13 @@ body {
   transform: translateX(-50%);
 }
 
+@media (max-width: 640px) {
+  .list {
+    width: 350px;
+  }
+  .list__box {
+    height: 400px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
