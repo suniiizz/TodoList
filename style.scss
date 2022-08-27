@@ -120,9 +120,9 @@ body {
 
 @media (max-width: 640px) {
   .list {
-    width: 350px;
-  }
-  .list__box {
-    height: 400px;
+    width: 280px;
+    .list__box {
+      height: 250px;
+    }
   }
 }
